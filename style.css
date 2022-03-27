@@ -1,0 +1,773 @@
+@font-face {
+    font-family: ubuntu;
+    src: url('assets/font/Ubuntu-R.ttf');
+    src: url('assets/font/Ubuntu-L.ttf');
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+   
+    font-family: ubuntu;
+    color: rgb(0, 113, 189);
+}
+
+
+
+html, body, .body{
+    width: 100%;
+}
+
+.header{
+    
+    width: 100%;
+    height: 80px;
+}
+
+
+.header-topo{
+
+    background-color: #0072BB;
+    height: 10px;
+    border-bottom: 1px solid #ADCCE0;
+    box-shadow: 0px 10px 0 #F1F1F1;
+}
+.header-logo{
+    margin-top: 10px;
+}
+
+.header-ul ul{
+    display: flex;
+    margin-right: 120px;
+    float: right;
+    margin-top: -30px; 
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.header-ul ul li{
+    padding: 10px;
+    list-style: none;
+
+}
+
+.main{
+    width: 100%;
+    height: auto;
+}
+
+.main-topo{
+    width: 100%;
+    height: auto;
+    background-image: url(img/imagem-1.png);
+    background-size: cover;
+    background-position-x: -10px;
+    background-position-y: -100px;
+    text-align: center;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding-block: 90px;
+
+    
+}
+.circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.cir1{
+    width: 435px;
+    height: 435px;
+    border: 1px solid #000;
+    background-color: white;
+}
+.cir2{
+    width: 485px;
+    height: 485px;
+    background-color: white;
+    
+}
+.cir3{
+    width: 515px;
+    height: 515px;
+    border: 1px solid #C6CFD1;
+    background-color: transparent;
+
+    
+}
+
+.cir4{
+    width: 570px;
+    height: 570px;
+    background-color: #D3DDDE;
+    
+}
+.cir5{
+    width: 617px;
+    height: 617px;
+    background-color: #d3dddea8;
+
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+
+.bolinha{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: absolute;
+}
+
+.bolinha1{
+    margin-top: 30px;
+    margin-right: -280px;
+    align-self: flex-start;
+}
+
+.bolinha2{
+    margin-bottom: 30px;
+    margin-left: -280px;
+    align-self: flex-end;
+}
+.bolinha4{
+    margin-top: 59px;
+    margin-right: 280px;
+    align-self: flex-start;
+}
+
+.bolinha3{
+    margin-bottom: 59px;
+    margin-left: 280px;
+    align-self: flex-end;
+}
+.title-cir1{
+    font-size: 40px;
+    font-weight: 100;
+
+}
+.title-cir1.sub{
+    font-size: 55px;
+
+}
+
+
+.title-cir1-bold{
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.main-topo-texto p{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.como-funciona{
+    width: 100%;
+    height: auto;
+    
+    
+    margin-top: 20px;
+    
+
+    
+}
+.div-linhas{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    
+
+}
+
+.linha{
+    width: 450px;
+    border-width: 0;
+    border-top-width: 1px;
+    border-color: #bbbdbda8;
+    size: 2px;
+
+}
+.linha1{
+    padding-left: 150px;
+}
+
+.linha2{
+    padding-right: 150px;
+}
+
+.texto-titulo{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+   margin-left: 550px;
+   margin-bottom: 80px;
+
+}
+.titulo1{
+    font-size: 30px;
+}
+.funciona.titulo1{
+    color: white;
+    background-color: #0272BC;
+    font-weight: bold;
+}
+
+.imagem-circular{
+    width: 250px;
+    height: 250px;
+
+    border-radius: 50%;
+}
+.image1{
+    width: auto;
+    height: auto;
+    margin: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-image{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.texto-service{
+    font-size: 24px;
+    font-weight: 100;
+}
+.paragrafo{
+    font-size: 14px;
+    padding-left: 10px;
+
+}
+.seccao2-imagens{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+.new-line{
+    width: 210px;
+    border-width: 0;
+    border-top-width: 1px;
+    border-color: #bbbdbda8;
+    size: 2px;
+}
+
+.tres-linhas{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+
+
+.texto1{
+    font-size: 16px;
+
+}
+.texto1-bold{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.text02{
+    font-size: 14px;
+    font-weight: bolder; 
+}
+.texto-fim-seccao{
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.botao-saiba-mais{
+    color: #FFF;
+    background-color: #0072BB;
+    border: none;
+    height: 35px;
+    width: 150px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    /*box-shadow: 4px 5px 0 #000;*/
+
+    align-items: center;
+}
+.botao-comece-hoje{
+    color: #FFF;
+    background-color: #0072BB;
+    border: none;
+    height: 35px;
+    width: 150px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    /*box-shadow: 4px 5px 0 #000;*/
+
+
+    position: absolute;
+    align-items: center;
+
+}
+
+.div-meubotao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.div-botao-comece{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: -50px;
+    margin-top: 100px;
+}
+.div-botao-comece1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: -50px;
+    
+}
+.seccao-como-funciona{
+    width: 100%;
+    height: auto;
+}
+.business{
+    width: 100%;
+    height: 1000px;
+    margin-top: 55px;
+
+    background-image: url(img/img2.jpg);
+    background-size: cover;
+    background-color: #0072BB;
+
+}
+.circulo3{
+
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+.circulo2{
+    width: 350px;
+    height: 350px;
+    border: 1px solid #B8A6BC;
+}
+.circulo1{
+    width: 400px;
+    height: 400px;
+    border: 1px solid #B8A6BC;
+    position: absolute;
+    
+    margin-top: -35px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.texto-circulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.poupe{
+    font-size: 30px;
+    font-weight: bold;
+}
+.texto-dos{
+    font-size: 30px;
+    font-weight: 100;
+    background-color: #0072BB;
+    color: white;
+
+}
+.procure{
+    color: white;
+    font-weight: bold;
+    background-color: #0072BB;
+
+}
+.vantagens{
+    font-weight: bold;
+}
+.na-web{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.business-texto2{
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+
+}
+.maioria{
+    font-size: 30px;
+    color: white;
+}
+
+
+.texto1-bold-business{
+
+   
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    background-color: #0272BC;
+    
+}
+.business-texto3{
+    width: auto;
+    height: auto;
+
+    background-color: #0072BB;
+    
+}
+
+.altere{
+    color: white;
+}
+.endereco{
+    color: white;
+    font-weight: bold;
+}
+.div-empresario{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+
+    background-color: #0272BC;
+
+
+}
+.div-empresario-max{
+position: absolute;
+margin-left: 600px;
+margin-top: -155px;
+
+width: 350px;
+height: 350px;
+border: 1px solid #F1EFF2;
+
+}
+
+.div-empresario-max1{
+    position: relative;
+    
+    width: 350px;
+    height: 350px;
+    border: 1px solid #F1EFF2;
+    
+    margin-top: 50px;
+}
+.div-empresario-min{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #F1EFF2;
+}
+.div-empresario-min1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #F1EFF2;
+}
+
+.div-empresario3{
+    width: 250px;
+    height: 250px;
+   border: 1px solid #000;
+
+}
+.div-empresario3-1{
+    width: 250px;
+    height: 250px;
+   border: 1px solid #000;
+
+}
+.div-empresario4{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/img3.png); 
+    background-size: cover;
+    background-position-x: -45px;
+    
+
+}
+
+.div-empresario4-1{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/imagem-1.png); 
+    background-size: cover;
+    background-position-x: -40px;
+    
+
+}
+
+.subtitulo{
+
+    margin-top: 90px;
+    margin-left: 150px;
+
+}
+.subtitulo1{
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+.div-empresario1{
+    width: 100%;
+    height: auto;
+    background-color: #E9F1F3;
+
+}
+
+.desenho-lateral{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-top-left-radius: 690px 530px;
+    border: 1px solid white;
+
+    margin-bottom: 100px;
+    
+    
+}
+.div-empresario-paragrafo{
+
+    width: 35%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+.circulo-ponto{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0072BB;
+
+
+
+}
+.circulo-ponto1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0072BB;
+
+    margin-top: 20px;
+
+}
+.circulo-ponto2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0072BB;
+
+    margin-top: 25px;
+
+}
+.div-subtitulo2{
+    display: flex;
+    flex-direction: row;
+
+}
+.texto-encontrar{
+    
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: -20px;
+
+}
+
+.texto-negocio{
+    font-size: 40px;
+}
+.texto-escalar{
+    font-size: 40px;
+    font-weight: bold;
+}
+.texto-empresario{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+.texto-empresario1{
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: -5px;
+
+}
+
+.paragrafo-empresario{
+font-size: 18px;
+text-align: justify;
+}
+
+.lista-vantagens li{
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.encontrar{
+    font-size: 30px;
+    font-weight: bold;
+
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+
+.precos{
+    font-size: 40px;
+    font-weight: 100;
+}
+.linha-empresario{
+    width: 100%;
+    border-width: 0;
+    border-top-width: 1px;
+    border-color: #bbbdbda8;
+    size: 2px;
+}
+
+
+.lista-vantagens{
+    margin-left: 20px;
+}
+.div-empresario-imagem{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    background-color: aqua;
+}
+.circulo4-empresario{
+
+    
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    margin-top: 100px;
+
+}
+.circulo3-empresario{
+    width: 250px;
+    height: 250px;
+    border: 1px solid #000;
+}
+
+.circulo2-empresario{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+
+}
+.factura{
+    font-weight: bold;
+}
+
+.div-encontre-precos1{
+    width: 100%;
+    height: auto;
+
+    margin-left: 170px;
+    margin-bottom: 150px;
+    margin-top: 10px;
+}
+
+.div-encontre-precos2{
+    margin-right: 150px;
+    margin-left: 90px;
+    margin-top: -100px;
+}
+
+.encontre-precos{
+
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.seccao-termino{
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
